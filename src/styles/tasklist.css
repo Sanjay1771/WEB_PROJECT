@@ -1,0 +1,17 @@
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.status {
+  font-size: 0.9em;
+  color: gray;
+}
